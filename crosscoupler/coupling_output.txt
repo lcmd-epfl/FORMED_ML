@@ -1,0 +1,16 @@
+Creating dimers from fragA ABEQOQ and fragB FOFMIY; atoms per fragment: 
+[[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37], [38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71]]
+Dimer generated: ABEQOQ_FOFMIY_14_2_1 with dihedral 22.5 degs between new atoms [5, 14, 39, 38] at initial fragment A pos 14 and B pos 2
+Dimer generated: ABEQOQ_FOFMIY_14_14_2 with dihedral -157. degs between new atoms [5, 14, 51, 52] at initial fragment A pos 14 and B pos 14
+Dimer generated: ABEQOQ_FOFMIY_14_16_3 with dihedral -168. degs between new atoms [5, 14, 53, 51] at initial fragment A pos 14 and B pos 16
+Dimer generated: ABEQOQ_FOFMIY_16_2_4 with dihedral 45.0 degs between new atoms [14, 16, 39, 38] at initial fragment A pos 16 and B pos 2
+Dimer generated: ABEQOQ_FOFMIY_16_14_5 with dihedral 45.0 degs between new atoms [14, 16, 51, 52] at initial fragment A pos 16 and B pos 14
+Dimer generated: ABEQOQ_FOFMIY_16_16_6 with dihedral 22.5 degs between new atoms [14, 16, 53, 51] at initial fragment A pos 16 and B pos 16
+Dimer generated: ABEQOQ_FOFMIY_35_2_7 with dihedral 45.0 degs between new atoms [16, 35, 39, 38] at initial fragment A pos 35 and B pos 2
+Dimer generated: ABEQOQ_FOFMIY_35_14_8 with dihedral 45.0 degs between new atoms [16, 35, 51, 52] at initial fragment A pos 35 and B pos 14
+Dimer generated: ABEQOQ_FOFMIY_35_16_9 with dihedral 22.5 degs between new atoms [16, 35, 53, 51] at initial fragment A pos 35 and B pos 16
+Dimer generated: ABEQOQ_FOFMIY_37_2_10 with dihedral -112. degs between new atoms [13, 37, 39, 38] at initial fragment A pos 37 and B pos 2
+Dimer generated: ABEQOQ_FOFMIY_37_14_11 with dihedral 45.0 degs between new atoms [13, 37, 51, 52] at initial fragment A pos 37 and B pos 14
+Dimer generated: ABEQOQ_FOFMIY_37_16_12 with dihedral 22.5 degs between new atoms [13, 37, 53, 51] at initial fragment A pos 37 and B pos 16
+
+
