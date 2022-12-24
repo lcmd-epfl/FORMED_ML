@@ -1,4 +1,5 @@
 # FORMED_ML
+
 Machine learning models for the FORMED database and downstream tasks, and cross coupling tool.
 
 All the raw data associated with this project can be found in the corresponding [Materials Cloud record](https://doi.org/10.24435/materialscloud:j6-e2), including interactive visualization. Notably, all labels and xyz files containing molecular 3D structure are available there.
@@ -9,7 +10,14 @@ We provide a conda environment file `environment.yaml` to install all requiremen
 
 Use the environment file by running `conda env create -f environment.yaml` and activate the environment with `conda activate FORMED`. 
 
+# Usage note
+
+We do not provide the SLATM representation of the molecules, which is required to run the ML models, given the humongous size of the resulting arrays. Instead, we provide scripts (`generate_slatm.py`) to produce those from the xyz files containing the 3D structure. 
+
+To re-train the models, we recomment that you re-generate the representations and labels using the raw data in the [Materials Cloud record](https://doi.org/10.24435/materialscloud:j6-e2) to minimize the chance of mismatching molecules and properties. Inference can be run safely after generating the representations from the xyz files to predict. 
+
 # Content
+
 1. `crosscoupler` contains the source code and example of the cross-coupling tool, which can find suitable unique sp2 carbons in molecules and generate coupling products. The code is given as a jupyer notebook. To run the jupyter notebook you need to provide the conda environment `FORMED` (vide supra) by running `python -m ipykernel install --user --name=FORMED`. After that, you should be able to run the jupyter notebook normally by selecting the `FORMED` environment as kernel. Example inputs are provided and pre-filled; the expected output is detailed in the notebook and the runtime should be almost instantaneous.
 
 2. `cv` contains 10-fold cross-validation scripts for the XGBoost ML models, as well as the outputs of the scripts. To run, please execute `generate_slatm.py` adequately by pointing to the xyz files (vide infra) to generate the `repr.npy` file containing the SLATM representations.
