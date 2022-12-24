@@ -10,7 +10,7 @@ We provide a conda environment file `environment.yaml` to install all requiremen
 Use the environment file by running `conda env create -f environment.yaml` and activate the environment with `conda activate FORMED`. 
 
 # Content
-1. `crosscoupler` contains the source code and example of the cross-coupling tool, which can find suitable unique sp2 carbons in molecules and generate coupling products. The code is given as a jupyer notebook. To run the jupyter notebook you need to provide the conda environment `FORMED` (vide supra) by running `python -m ipykernel install --user --name=FORMED`. After that, you should be able to run the jupyter notebook normally by selecting the `FORMED` environment as kernel. Example inputs are provided and pre-filled.
+1. `crosscoupler` contains the source code and example of the cross-coupling tool, which can find suitable unique sp2 carbons in molecules and generate coupling products. The code is given as a jupyer notebook. To run the jupyter notebook you need to provide the conda environment `FORMED` (vide supra) by running `python -m ipykernel install --user --name=FORMED`. After that, you should be able to run the jupyter notebook normally by selecting the `FORMED` environment as kernel. Example inputs are provided and pre-filled; the expected output is detailed in the notebook and the runtime should be almost instantaneous.
 
 2. `cv` contains 10-fold cross-validation scripts for the XGBoost ML models, as well as the outputs of the scripts. To run, please execute `generate_slatm.py` adequately by pointing to the xyz files (vide infra) to generate the `repr.npy` file containing the SLATM representations.
 
