@@ -5,7 +5,7 @@ All the raw data associated with this project can be found in the corresponding 
 
 # Installation
 
-We provide a conda environment file `environment.yaml` to install all requirements with conda into a conda environnment called `FORMED`. The `FORMED` environment can be used to run all provided scripts and notebooks in this repository. This approach has been tested in several recent releases of Ubuntu (18-22) with python versions 3.7-3.9.
+We provide a conda environment file `environment.yaml` to install all requirements with conda into a conda environnment called `FORMED`. The `FORMED` environment can be used to run all provided scripts and notebooks in this repository. This approach has been tested in several recent releases of Ubuntu (18-22) with python versions 3.7-3.9 and the process should take a few minutes.
 
 Use the environment file by running `conda env create -f environment.yaml` and activate the environment with `conda activate FORMED`. 
 
