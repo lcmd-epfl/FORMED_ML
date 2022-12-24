@@ -1,11 +1,13 @@
 # FORMED_ML
 Machine learning models for the FORMED database and downstream tasks, and cross coupling tool.
 
-All the raw data associated with this project can be found in the corresponding [Materials Cloud record](https://doi.org/10.24435/materialscloud:j6-e2), including interactive visualization.
+All the raw data associated with this project can be found in the corresponding [Materials Cloud record](https://doi.org/10.24435/materialscloud:j6-e2), including interactive visualization. Notably, all labels and xyz files containing molecular 3D structure are available there.
 
 # Installation
 
-We provide a conda environment file `environment.yaml` to install all requirements with conda into a conda environnment called `FORMED`. Run as `conda env create -f environment.yaml` and activate as `conda activate FORMED`. 
+We provide a conda environment file `environment.yaml` to install all requirements with conda into a conda environnment called `FORMED`. The `FORMED` environment can be used to run all provided scripts and notebooks in this repository. 
+
+Use the environment file by running `conda env create -f environment.yaml` and activate the environment with `conda activate FORMED`. 
 
 # Content
 1. `crosscoupler` contains the source code and example of the cross-coupling tool, which can find suitable unique sp2 carbons in molecules and generate coupling products. The code is given as a jupyer notebook. To run the jupyter notebook you need to provide the conda environment `FORMED` (vide supra) by running `python -m ipykernel install --user --name=FORMED`. After that, you should be able to run the jupyter notebook normally by selecting the `FORMED` environment as kernel. Example inputs are provided and pre-filled.
